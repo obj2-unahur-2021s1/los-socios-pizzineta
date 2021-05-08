@@ -46,7 +46,7 @@ class ClienteTest : DescribeSpec({
         it("La propina total de Micaela de LasRosas debería ser 137") {
           micaela.propinaTotal().shouldBe(137)
         }
-        it("La propina total de Ezequiel de LasRosas debería ser 50") {
+        it("La propina total de Ezequiel de LasRosas debería ser 399") {
           ezequiel.propinaTotal().shouldBe(399)
         }
       }
@@ -60,13 +60,13 @@ class ClienteTest : DescribeSpec({
         it("La propina total de Franco de LasLauchas debería ser 50") {
           franco.propinaTotal().shouldBe(0)
         }
-        it("La propina total de Felipe de LasLauchas debería ser 289") {
+        it("La propina total de Felipe de LasLauchas debería ser 260") {
           felipe.propinaTotal().shouldBe(260)
         }
-        it("La propina total de Micaela de LasLauchas debería ser 137") {
+        it("La propina total de Micaela de LasLauchas debería ser 56") {
           micaela.propinaTotal().shouldBe(56)
         }
-        it("La propina total de Ezequiel de LasLauchas debería ser 50") {
+        it("La propina total de Ezequiel de LasLauchas debería ser 225") {
           ezequiel.propinaTotal().shouldBe(225)
         }
       }
@@ -106,7 +106,7 @@ class ClienteTest : DescribeSpec({
         it("La propina total de Micaela de LasTorres debería ser 21") {
           micaela.propinaTotal().shouldBe(21)
         }
-        it("La propina total de Ezequiel de LasTorres debería ser 354") {
+        it("La propina total de Ezequiel de LasTorres debería ser 85") {
           ezequiel.propinaTotal().shouldBe(85)
         }
       }
