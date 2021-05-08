@@ -7,9 +7,9 @@ import io.kotest.matchers.shouldBe
 class ClienteTest : DescribeSpec({
   describe("Un/a cliente") {
     it("Alan no da propina") {
-      val pedido1 = Pedido(240)
-      val alan = Cliente(Enojado, LasTorres, 615, pedido1)
-      alan.propinaEstadoDeAnimo().shouldBe(0.0)
+      val pedido1 = Pedido(233)
+      val alan = Cliente(Resfriado, LasTorres, 615, pedido1)
+      alan.propinaEstadoDeAnimo().shouldBe(233)
     }
   }
 })
